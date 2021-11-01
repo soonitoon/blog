@@ -1,7 +1,7 @@
 ---
 title: Granchild of Test
 parent: Child of Test
-grand_parent: 유지보수
+grand_parent: Refactoring
 nav_order: 2
 ---
 
