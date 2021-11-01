@@ -1,12 +1,9 @@
 ---
-title: Test
+title: 유지보수
 has_children: true
 nav_order: 2
 ---
 
-# Another page
+# 유지보수
 
-Test this
-
-
-blah
+그동안 진행한 클론코딩 프로젝트나 개인 & 팀 프로젝트가 대상입니다. 새로운 기능을 추가 및 리펙토링 과정에서 배운 점을 정리합니다.
