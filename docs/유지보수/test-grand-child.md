@@ -1,8 +1,8 @@
 ---
 title: Granchild of Test
 parent: Child of Test
-grand_parent: Test
-nav_order: 1
+grand_parent: 유지보수
+nav_order: 2
 ---
 
 # I am a grand child of test
