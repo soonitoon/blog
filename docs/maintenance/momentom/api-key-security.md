@@ -8,7 +8,7 @@ nav_order: 1
 
 # API KEY를 숨기기 위한 기묘한 여정
 
-![momentom image](assets/images/01.PNG)
+![momentom image](/assets/images/01.PNG)
 
 **momentom**은 제가 웹 프로그래밍을 시작하고 처음으로 완성한 웹 페이지입니다. 비록 클론코딩 강의를 보며 만든 프로젝트였지만, 제 나름대로 API를 추가하고 조그만 기능과 디자인을 덧붙였던 기억이 납니다. 결과물은 [여기](https://momentom-70ca6.web.app/)에서, 레포지토리는 [여기](https://github.com/soonitoon/momentom)에서 볼 수 있습니다.
 
@@ -25,7 +25,7 @@ nav_order: 1
 
 로컬에서는 API KEY를 `.env` 파일 안에 저장해놓고 환경변수로 불러와 사용함으로써 간단하게 관리할 수 있습니다. 물론 `.gitignore`에 `.env`를 추가하면 원격 저장소에도 올라가지 않습니다. 문제는 빌드 과정을 GitHub actions으로 구현하고자 하는 경우입니다. 이럴 때 GitHub secrets에 민감한 정보를 저장해놓고 action을 실행할 때 해당 정보를 액션이 실행되는 가상환경에 끌고 와 환경변수로 사용할 수 있습니다.
 
-![GitHub secrets image](/blogassets/images/03.PNG)
+![GitHub secrets image](/assets/images/03.PNG)
 
 GitHub secret은 레포지토리 세팅 메뉴에서 설정할 수 있습니다. secret의 이름과 값을 등록하면 간단히 추가됩니다.
 
@@ -255,7 +255,7 @@ jobs:
 
 `artifact` 액션을 통해 빌드와 배포 과정을 이어준 모습입니다. `upload-artifact`를 통해 특정 폴더 혹은 파일을 임시로 저장해놓고, `download-artifact`를 통해 다른 가상환경에서 업로드한 파일을 다운받을 수 있습니다. 이렇게 해서 env 세팅 - 빌드 - 배포의 자동화 흐름이 완성되었습니다.
 
-![GitHub actions image](/blogassets/images/04.PNG)
+![GitHub actions image](/assets/images/04.PNG)
 
 한 가지 주의할 점은 `steps`에서 각각의 작업을 구분하는 기준이 `-`라는 것입니다. 이상하게도 firebase에서 생성해준 yml 템플릿에는 `-`가 한 스텝 안에 여러개가 들어가 있어서 초반에 오류가 생겼습니다.
 
