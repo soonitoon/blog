@@ -8,7 +8,7 @@ nav_order: 1
 
 # API KEY를 숨기기 위한 기묘한 여정
 
-![momentom image](/assets/01.PNG)
+![momentom image](https://soonitoon.github.io/blog/assets/01.PNG)
 
 **momentom**은 제가 웹 프로그래밍을 시작하고 처음으로 완성한 웹 페이지입니다. 비록 클론코딩 강의를 보며 만든 프로젝트였지만, 제 나름대로 API를 추가하고 조그만 기능과 디자인을 덧붙였던 기억이 납니다. 결과물은 [여기](https://momentom-70ca6.web.app/)에서, 레포지토리는 [여기](https://github.com/soonitoon/momentom)에서 볼 수 있습니다.
 
