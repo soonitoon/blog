@@ -1,5 +1,5 @@
 ---
-title: momentom refactoring & new features
+title: momentom
 has_children: true
 parent: maintenance
 nav_order: 1
