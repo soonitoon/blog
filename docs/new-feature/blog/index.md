@@ -1,7 +1,7 @@
 ---
 title: blog
 has_children: true
-parent: new feature
+parent: new features
 nav_order: 1
 ---
 
