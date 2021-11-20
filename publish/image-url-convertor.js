@@ -11,9 +11,9 @@ const IMAGE_LINK_REGEX = /\]\(\/assets\//g;
 const IMAGE_DOWNLOAD_LINK_PRIFIX =
   "](https://raw.githubusercontent.com/soonitoon/blog/master/assets/";
 
-const writeMakrdownFile = async (path, modifiedMarkdownFile) => {
+const writeMakrdownFile = async (path, modifiedMarkdownText) => {
   try {
-    await writeFile(path, modifiedMarkdownFile);
+    await writeFile(path, modifiedMarkdownText);
     console.log(`${path}: markdown file was successfully modified.`);
   } catch (err) {
     throw err;
